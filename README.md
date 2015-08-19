@@ -5,7 +5,7 @@ This docker image allows you to scan and mysqldump databases on all the running 
 ## Usage
 
 ```
-  docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/backups:/mnt indigen/mysql-dumper 2015-07-14T16:42:21
+  docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/backups:/mnt indigen/mysql-dumper 2015-07-14T16:42:21
 ```
 
 Dump all the register MySQL containers and dumps them in /tmp/backups/2015-07-14T16:42:21
